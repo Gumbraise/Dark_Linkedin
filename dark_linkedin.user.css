@@ -1,0 +1,62 @@
+/* ==UserStyle==
+@name         Dark Linkedin
+@namespace    Gumbraise Styles
+@version      1.0
+@license      CC-BY-SA-4.0
+@homepageURL  https://github.com/gumbraise/Dark_Linkedin
+@updateURL    https://raw.githubusercontent.com/gumbraise/Dark_Linkedin/master/dark_linkedin.user.css
+@author       Gumbraise
+==/UserStyle== */
+
+:root {
+	--color-background-canvas: #0C0D10;
+	--white: #000;
+	--black: #fff;
+	--color-text-low-emphasis: #fff;
+	--system-gray-20: #0d0d0d;
+	--color-icon-nav: #fff;
+	--system-gray-10: #050505;
+	--system-gray-30: #1A1A1A;
+	--system-gray-40: #303030;
+	--system-gray-50: #4F4F4F;
+	--system-gray-60: #737373;
+	--system-gray-70: #999999;
+	--system-gray-80: #BDBDBD;
+	--system-gray-90: #DEDEDE;
+	--cool-gray-10: #060504;
+	--cool-gray-20: #110C07;
+	--cool-gray-30: #23190E;
+	--cool-gray-40: #3F2E1D;
+	--cool-gray-50: #624C37;
+	--cool-gray-60: #87705A;
+	--cool-gray-70: #A99785;
+	--cool-gray-80: #C7BCB0;
+	--cool-gray-90: #E2DDD9;
+	--warm-gray-10: #050506;
+	--warm-gray-20: #0C0D10;
+	--warm-gray-30: #161A20;
+	--warm-gray-40: #29313D;
+	--warm-gray-50: #465060;
+	--warm-gray-60: #6A7484;
+	--warm-gray-70: #919AA7;
+	--warm-gray-80: #B8BEC6;
+	--warm-gray-90: #DEE0E3;
+	--black-a90: hsla(0, 0%, 100%, 0.9);
+	--black-a75: hsla(0, 0%, 100%, .75);
+	--black-a60: rgba(255, 255, 255, .6);
+	--black-a45: rgba(255, 255, 255, .45);
+	--black-a30: rgba(255, 255, 255, .3);
+	--black-a15: rgba(255, 255, 255, .15);
+	--black-a08: rgba(255, 255, 255, .08);
+	--black-a04: rgba(255, 255, 255, .04);
+	--white-a85: hsla(0, 0%, 0%, .85);
+	--white-a70: hsla(0, 0%, 0%, .7);
+	--white-a55: hsla(0, 0%, 0%, .55);
+	--white-a40: hsla(0, 0%, 0%, .4);
+	--white-a25: hsla(0, 0%, 0%, .25);
+	--white-a12: hsla(0, 0%, 0%, .12);
+	--white-a06: hsla(0, 0%, 0%, .06);
+}
+.feed-shared-creative__text, .feed-shared-header__text-view a, .feed-shared-update-v2--minimal-padding .feed-shared-update-v2__commentary, .artdeco-modal__header h1, .artdeco-modal__header h2, .artdeco-modal__header h3, .artdeco-modal__header h4, .artdeco-modal__header h5, .artdeco-modal__header h6, .artdeco-modal[size="small"] .artdeco-modal__header h1, .artdeco-modal[size="small"] .artdeco-modal__header h2, .artdeco-modal[size="small"] .artdeco-modal__header h3, .artdeco-modal[size="small"] .artdeco-modal__header h4, .artdeco-modal[size="small"] .artdeco-modal__header h5, .artdeco-modal[size="small"] .artdeco-modal__header h6 {
+    color:rgba(255, 255, 255, .9);
+}
