@@ -7,6 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/Gumbraise/Dark_Linkedin/main/dark_linkedin.user.css
 @author       Gumbraise
 ==/UserStyle== */
+@-moz-document domain(linkedin.com) {
 
 :root {
 	--color-background-canvas: #0C0D10;
@@ -72,4 +73,53 @@
 
 .pv-profile-sticky-header {
     background-color: var(--white);
+}
+
+.msg-s-event-listitem__subject {
+    color: #FFF;
+}
+
+.msg-s-event-listitem__body {
+    color: #FFF;
+}
+
+.t-black--light, .msg-form__contenteditable {
+    color: #FFF;
+}
+
+.msg-form--thread .msg-form__msg-content-container .msg-form__contenteditable, .msg-overlay-conversation-bubble--jumbo .msg-form__msg-content-container .msg-form__contenteditable > p {
+    color: #FFF;
+}
+
+.org-tracked-companies-table__your-company-row {
+    background-color: var(--system-gray-10);
+}
+.theme--mercado .nt-card--unread {
+    background-color: var(--system-gray-30);
+}
+.highcharts-background {
+    fill: var(--system-gray-10);
+}
+
+.pv-profile-sticky-header {
+    background-color: var(--white);
+}
+.community-panel-interest-package__entity-link.community-panel-interest-package__entity-link {
+    color: #FFF;
+}
+.community-panel-interest-package__cta {
+    color: #FFF;
+}
+.community-panel__discover-cta {
+    color: #FFF;
+}
+.community-panel-interest-package__header {
+    color: #FFF;
+}
+.editor-content .ql-mention {
+    color: #FFF;
+}
+.msg-form__msg-content-container .msg-form__contenteditable .msg-form__placeholder, .msg-form__msg-content-container .msg-form__contenteditable b, .msg-form__msg-content-container .msg-form__contenteditable em, .msg-form__msg-content-container .msg-form__contenteditable i, .msg-form__msg-content-container .msg-form__contenteditable p {
+    color: #FFF;
+}
 }
